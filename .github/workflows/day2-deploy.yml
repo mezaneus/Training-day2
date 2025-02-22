@@ -1,6 +1,6 @@
 name: terraform CICD
 on:
-   # push:
+    push:
         #  branches:
          #    - main
 
