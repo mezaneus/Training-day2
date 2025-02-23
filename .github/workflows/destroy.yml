@@ -2,7 +2,7 @@ name: terraform CICD
 on:
     workflow_dispatch:
          schedule:
-              - cron: '*5/* * *' # Runs every day at midnight, adjust as needed          
+              - cron: '*/5* * *' # Runs every 5 minutes , adjust as needed          
 jobs:
       destroy:
         runs-on: ubuntu-latest
